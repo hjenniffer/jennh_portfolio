@@ -23,7 +23,8 @@ if ( ! function_exists( 'jenn_portfolio_posted_on' ) ) :
 			esc_attr( get_the_modified_date( 'c' ) ),
 			esc_html( get_the_modified_date() )
 		);
-
+                        
+                
 		$posted_on = sprintf(
 			/* translators: %s: post date. */
 			esc_html_x( 'Posted on %s', 'post date', 'jenn_portfolio' ),
